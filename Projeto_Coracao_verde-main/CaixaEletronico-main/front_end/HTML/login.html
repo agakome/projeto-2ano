@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="../CSS/index_cadastro.css">
+        <link rel="stylesheet" href="../CSS/index.css">
+    </head>
+    <body>
+        <button id="entrada" class="open-modal" data-modal="modal-1">Modal Bruno</button>
+
+        <dialog id="modal-1">
+    
+          <div>
+            
+            <div id="root">
+              
+                <section>
+                   <button class="close-modal" data-modal="modal-1">x</button >
+    
+                    <img src="/img/logo.png" 
+                        alt="Logo "
+                    />
+                    <label for="Nome">Nome</label>
+                    <input 
+                        type="text" 
+                        name="Nome:" 
+                        id="Nome" 
+                        class="campo_texto"
+                        placeholder="Digite seu nome..."
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                    />
+    
+                    <label for="cpf">Cpf</label>
+                    <input 
+                        type="text" 
+                        name="cpf" 
+                        id="cpf" 
+                        class="campo_texto"
+                        placeholder="digite seu cpf..."
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                    />
+    
+                    <label for="Data de nascimento">Data de nascimento</label>
+                    <input 
+                        type="text" 
+                        name="Data de nascimento" 
+                        id="dt_nascimento" 
+                        class="campo_texto"
+                        placeholder="digite sua data de nascimento..."
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                    />
+    
+                    <label for="Senha">Senha</label>
+                    <input 
+                        type="text" 
+                        name="senha" 
+                        id="senha" 
+                        class="campo_texto"
+                        placeholder="Cria uma Senha..."
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                    />
+    
+                    <button id="botaoEntrar">Entrar</button>
+                    <a href="/HTML/index_cadastro.html">Cadastre-se</a>
+                   
+                </section>
+            </div>
+    
+          </div>
+        </dialog>
+    
+        <script src="../JS/index.js"></script>
+    </body>
+</html>

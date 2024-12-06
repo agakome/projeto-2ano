@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+}
+    
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    font-size: 62.5%;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    font-family: "Sour Gummy", sans-serif;
+}    
+
+.close-modal {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    margin-left: 300px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+    
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 20rem;
+    padding: 1.6rem;
+    border: 0.07m solid black;
+    border-radius: 1.2rem;
+    background-color: white;
+}
+        
+dialog {
+    border: none;
+    background-color: transparent;
+}
+        
+    /* logo */
+img {    
+   width: 100%;
+   height: 150px;
+}
+        
+input {
+    padding: 0.4rem;
+    width: 100%;
+    border: 0.07rem solid black;
+    border-radius: 0.6rem;
+}
+
+#entrada {
+    width: 30%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0000003e;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+    
+#botaoEntrar {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0000003e;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+a{
+    font-size: 1rem;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+nav{
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.base {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 5px;
+    font-size: 11px;
+}
+
+footer{   
+    background:linear-gradient(0deg,#feffae,#fcff69 )   ;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
